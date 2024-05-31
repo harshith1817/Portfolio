@@ -142,7 +142,7 @@ function App() {
         <MoveToTop/>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about/' element={<About />} />
+          <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/resume' element={<Resume />} />
         </Routes>
