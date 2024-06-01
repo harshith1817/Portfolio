@@ -18,6 +18,8 @@ import Background from '../public/LottieFiles/Background.json';
 import MoveToTop from "../src/components/MoveToTop.jsx";
 import './App.css';
 
+
+
 const onClickHandle = (e) => {
   window.open("https://github.com/harshith1817/Portfolio", '_blank');
 }
