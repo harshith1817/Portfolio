@@ -110,7 +110,7 @@ function Projects() {
       <ProjectWorksContainer>
         <ProjectContainer>
             <Image>
-                <img src={CMRIT} className="cmrit"/>
+                <img src={CMRIT} className="projectss"/>
             </Image>
             <Discription>
                 <ProjectHeading>CMRIT Clone</ProjectHeading>
@@ -128,7 +128,7 @@ function Projects() {
         </ProjectContainer>
         <ProjectContainer>
           <Image>
-          <img src={AbhiBus} className="cmrit"/>
+          <img src={AbhiBus} className="projectss"/>
           </Image>
           <Discription>
             <ProjectHeading>AbhiBus Automation</ProjectHeading>
@@ -139,11 +139,14 @@ function Projects() {
             <Buttons href="https://github.com/harshith1817/AbhiBusAutomation" target="_blank">
                 <FaGithub /> GitHub
                 </Buttons >
+                <Buttons href="https://drive.google.com/file/d/16hvGmxlIVc8PwkaJ4QkE_q7-Z1N0ubkR/view" target="_blank">
+                    <CgFileDocument /> Demo
+                </Buttons>
             </ButtonsContainer>
         </ProjectContainer>
         <ProjectContainer>
             <Image>
-                <img src={TicTacToe} className="cmrit"/>
+                <img src={TicTacToe} className="projectss"/>
             </Image>
             <Discription>
                 
@@ -162,7 +165,7 @@ function Projects() {
         </ProjectContainer>
         <ProjectContainer>
             <Image>
-            <img src={Portfolio} className="cmrit"/>
+            <img src={Portfolio} className="projectss"/>
             </Image>
             <Discription>
                 <ProjectHeading>Portfolio</ProjectHeading>
@@ -173,7 +176,7 @@ function Projects() {
                 <Buttons href="https://github.com/harshith1817/Portfolio/" target="_blank">
                     <FaGithub /> GitHub
                 </Buttons>
-                <Buttons href="https://harshith1817.github.io/Portfolio/" target="_blank">
+                <Buttons href="https://chbsh.vercel.app" target="_blank">
                     <CgFileDocument /> Demo
                 </Buttons>
             </ButtonsContainer>
