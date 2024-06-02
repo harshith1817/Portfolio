@@ -4,7 +4,6 @@
   "homepage": "http://harshith1817.github.io/Portfolio",
   "version": "0.0.0",
   "type": "module",
-  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,6 +14,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@pdftron/pdfjs-express": "^8.7.4",
     "@react-pdf/renderer": "^3.4.4",
     "lottie-react": "^2.4.0",
     "pdf": "^0.1.0",

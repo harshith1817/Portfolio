@@ -121,10 +121,10 @@ function Projects() {
             </Discription>
             <ButtonsContainer>
                 <Buttons href="https://github.com/harshith1817/CMRITHYD_CLONE" target="_blank">
-                    <FaGithub /> GitHub
+                    <FaGithub />&nbsp; GitHub
                 </Buttons>
                 <Buttons href="https://harshith1817.github.io/CMRITHYD_CLONE" target="_blank">
-                    <CgFileDocument /> Demo
+                    <CgFileDocument />&nbsp; Demo
                 </Buttons>
             </ButtonsContainer>
         </ProjectContainer>
@@ -139,10 +139,10 @@ function Projects() {
             </Discription>
             <ButtonsContainer>
             <Buttons href="https://github.com/harshith1817/AbhiBusAutomation" target="_blank">
-                <FaGithub /> GitHub
+                <FaGithub />&nbsp; GitHub
                 </Buttons >
                 <Buttons href="https://drive.google.com/file/d/16hvGmxlIVc8PwkaJ4QkE_q7-Z1N0ubkR/view" target="_blank">
-                    <CgFileDocument /> Demo
+                    <CgFileDocument />&nbsp; Demo
                 </Buttons>
             </ButtonsContainer>
         </ProjectContainer>
@@ -158,10 +158,10 @@ function Projects() {
             </Discription>
             <ButtonsContainer>
                 <Buttons href="https://github.com/harshith1817/TicTacToe" target="_blank">
-                <FaGithub /> GitHub
+                <FaGithub />&nbsp; GitHub
                 </Buttons>
                 <Buttons href="https://harshith1817.github.io/TicTacToe/" target="_blank">
-                    <CgFileDocument /> Demo
+                    <CgFileDocument />&nbsp; Demo
                 </Buttons>
             </ButtonsContainer>
         </ProjectContainer>
@@ -176,10 +176,10 @@ function Projects() {
             </Discription>
             <ButtonsContainer>
                 <Buttons href="https://github.com/harshith1817/Portfolio/" target="_blank">
-                    <FaGithub /> GitHub
+                    <FaGithub />&nbsp; GitHub
                 </Buttons>
                 <Buttons href="https://chbsh.vercel.app" target="_blank">
-                    <CgFileDocument /> Demo
+                    <CgFileDocument />&nbsp; Demo
                 </Buttons>
             </ButtonsContainer>
             </ProjectContainer>
