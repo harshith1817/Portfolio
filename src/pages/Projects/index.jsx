@@ -84,6 +84,8 @@ cursor: pointer;
 display: flex;
 align-items: center;
 justify-content: center;
+text-decoration: none;
+
 
 &:hover{
     opacity:0.8;
