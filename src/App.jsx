@@ -189,6 +189,7 @@ const MobileIcon = styled.div`
 `;
 
 const MobileMenu = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,7 +198,6 @@ const MobileMenu = styled.div`
   position: fixed;
   top: 50px;
   right: 0;
-  width: 100%;
   padding: 12px 40px 24px 40px;
   background: rgba(0, 0, 0, 0.6);
   transition: all 0.6s ease-in-out;
@@ -208,18 +208,39 @@ const MobileMenu = styled.div`
 
 `;
 
-const MobileLink = styled.a`
+const MobileLink = styled(({ exact, activeClassName, ...props }) => (
+  <NavLink {...props} exact={exact ? true : undefined} activeClassName={activeClassName ? 'active' : undefined} />
+))`
     color: white;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.9s ease-in-out;
-    text-decoration: none;
-    :hover {
-      color: black;
-    }
-    &.active {
-      border-bottom: 2px solid brown;
-    }
+  text-decoration: none;
+  margin-right: 3rem;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+
+  &.active {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    color: #b968c7;    
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background-color: #b968c7;
+    border-bottom: 5px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: .5s;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
 `;
 
 
@@ -283,11 +304,10 @@ function App() {
             <>
             
             <MobileMenu isOpen={isOpen}>
-                <MobileLink href="/" onClick={()=>setIsOpen(!isOpen)}>Home</MobileLink>
-                <MobileLink href="/about" onClick={()=>setIsOpen(!isOpen)}>About</MobileLink>
-                <MobileLink href="/projects" onClick={()=>setIsOpen(!isOpen)}>Projects</MobileLink>
-                <MobileLink href="/resume" onClick={()=>setIsOpen(!isOpen)}>Resume</MobileLink>
-   
+                <MobileLink to="/" onClick={()=>setIsOpen(!isOpen)}>Home</MobileLink>
+                <MobileLink to="/about" onClick={()=>setIsOpen(!isOpen)}>About</MobileLink>
+                <MobileLink to="/projects" onClick={()=>setIsOpen(!isOpen)}>Projects</MobileLink>
+                <MobileLink to="/resume" onClick={()=>setIsOpen(!isOpen)}>Resume</MobileLink>
             </MobileMenu>
             </>
         }
