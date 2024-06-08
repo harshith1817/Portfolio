@@ -26,7 +26,7 @@ const ResumeDiv = styled.div`
 
 const ResumeImg = styled.div`
   width: 45%;
-  height: 90%;
+  height: 95%;
   background-size: cover;
   background-position: center;
   background-color:white;
