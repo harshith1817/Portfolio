@@ -289,7 +289,7 @@ function App() {
     <Router>
       <div className="app">
 
-      <img src="./public/assets/Background.png" alt="background" className='bg'/>
+      <img src="https://raw.githubusercontent.com/harshith1817/Portfolio/main/public/assets/Background.png" alt="background" className='bg'/>
         <Preloader load={load} />
         <MoveToTop />
         <Nav>
