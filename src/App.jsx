@@ -8,6 +8,7 @@ import Resume from './pages/Resume';
 import Footer from './Footer';
 import MoveToTop from "./components/MoveToTop";
 import Preloader from "./components/Preloader.jsx";
+import {FaBars} from "react-icons/fa";
 import { AiTwotoneHome } from "react-icons/ai";
 import { FaUser } from "react-icons/fa";
 import { GoProjectSymlink } from "react-icons/go";
@@ -32,6 +33,12 @@ const Nav = styled.nav`
   position: fixed;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    padding-left: 0;
+  }
 `;
 
 const Logo = styled.div`
@@ -42,6 +49,32 @@ const Logo = styled.div`
   font-weight: bold;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
+
+  @media (max-width: 768px) {
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display : none;
+  }
+`;
+
+const MobileLogo = styled.div`
+  color: #a2c4a8;
+  font-size: 1.8rem;
+  align-items: center;
+  padding-left: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  display : none;
+  left : 20px;
+  background-color: rgba(0, 0, 0, 0);
+
+  @media (max-width: 768px) {
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display : block;
+  }
 `;
 
 const MenuItems = styled.div`
@@ -49,6 +82,12 @@ const MenuItems = styled.div`
   display: flex;
   justify-content: right;
   background-color: rgba(0, 0, 0, 0);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 `;
 
 const Icon = styled.span`
@@ -90,6 +129,13 @@ const MenuItem = styled(({ exact, activeClassName, ...props }) => (
   &:hover::after {
     transform: scaleX(1);
   }
+
+  @media (max-width: 768px) {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    display : none;
+  }
 `;
 
 const SourceCodeBtn = styled.button`
@@ -109,7 +155,73 @@ const SourceCodeBtn = styled.button`
     transform: translateY(-1.75px);
     opacity: 0.8;
   }
+
+  @media (max-width: 768px) {
+    margin-bottom: 1rem;
+    display : none;
+  }
 `;
+
+const MobileNav = styled.nav`
+  background: rgba(0, 0, 0, 0.6);
+  position : fixed;
+  display : flex;
+  justify-content : space-between;
+  width : 100%;
+  heigth : 40px;
+  align-items : center;
+  padding : 0 10px;
+`;
+const MobileIcon = styled.div`
+  display : none;
+  @media screen and (max-width : 768px) {
+      display : block;
+      position : absolute;
+      top : 0;
+      right : 10px;
+      font-size : 1.5rem;
+      cursor : pointer;
+      transform : translate(-100%, 50%);
+      cursor : pointer;
+      color : white;
+      margin : 0
+  }
+`;
+
+const MobileMenu = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items : center;
+  gap: 16px;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 100%;
+  padding: 12px 40px 24px 40px;
+  background: rgba(0, 0, 0, 0.6);
+  transition: all 0.6s ease-in-out;
+  transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
+  z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
+
+`;
+
+const MobileLink = styled.a`
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.9s ease-in-out;
+    text-decoration: none;
+    :hover {
+      color: black;
+    }
+    &.active {
+      border-bottom: 2px solid brown;
+    }
+`;
+
 
 function App() {
   const [load, setLoad] = useState(true);
@@ -135,14 +247,16 @@ function App() {
     window.location.reload();
   };
 
+  const [isOpen, setIsOpen] = React.useState(false);
+
   return (
     <Router>
       <div className="app">
-        <Lottie 
+        {/* <Lottie 
           className="bg" 
           animationData={Background} 
           loop={true} 
-        />
+        /> */}
         <Preloader load={load} />
         <MoveToTop />
         <Nav>
@@ -153,8 +267,31 @@ function App() {
             <MenuItem to='/projects'> <Icon> <GoProjectSymlink /> </Icon>Projects</MenuItem>
             <MenuItem to='/resume'> <Icon> <IoDocumentTextOutline /> </Icon>Resume</MenuItem>
             <SourceCodeBtn onClick={onClickHandle} className='github'><Icon> <FaCodeBranch /><FaStar /></Icon></SourceCodeBtn>
-          </MenuItems>
+          </MenuItems>            
         </Nav>
+
+        <MobileNav>
+          <MobileLogo onClick={reloadPage}>HC</MobileLogo>
+          <MobileIcon>
+            <FaBars onClick={()=>{setIsOpen(!isOpen)}}></FaBars>
+          </MobileIcon> 
+        </MobileNav>
+        
+
+        {
+          isOpen && 
+            <>
+            
+            <MobileMenu isOpen={isOpen}>
+                <MobileLink href="/" onClick={()=>setIsOpen(!isOpen)}>Home</MobileLink>
+                <MobileLink href="/about" onClick={()=>setIsOpen(!isOpen)}>About</MobileLink>
+                <MobileLink href="/projects" onClick={()=>setIsOpen(!isOpen)}>Projects</MobileLink>
+                <MobileLink href="/resume" onClick={()=>setIsOpen(!isOpen)}>Resume</MobileLink>
+   
+            </MobileMenu>
+            </>
+        }
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />

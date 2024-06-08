@@ -10,6 +10,10 @@ import { CgFileDocument } from "react-icons/cg";
 const Section = styled.section`
   width: 100%;
   height:95rem;
+
+  @media (max-width: 767px){
+    height:170rem;
+  }
 `;
 
 const MyProjects = styled.h1`

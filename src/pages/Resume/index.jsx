@@ -5,7 +5,11 @@ import pdfFile from './Resume.pdf';
 import Image from './Resume.jpg'
 
 const ResumePage = styled.section`
-  width: 100%;
+  width: 100%;  
+
+  @media (max-width: 767px){
+    padding-top:20%;
+  }
 `;
 
 const ResumeDiv = styled.div`
@@ -14,6 +18,10 @@ const ResumeDiv = styled.div`
   align-items: center;
   justify-content: center;
   padding-top: 6rem;
+  
+  @media (max-width: 767px){
+    height:35rem;
+  }
 `;
 
 const ResumeImg = styled.div`
@@ -22,6 +30,12 @@ const ResumeImg = styled.div`
   background-size: cover;
   background-position: center;
   background-color:white;
+  
+  @media (max-width: 767px){
+    width: 90%;
+    height:95%;
+
+  }
 `;
 
 const DownloadContainer = styled.div`

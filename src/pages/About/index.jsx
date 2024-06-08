@@ -16,6 +16,12 @@ const Part1=styled.div`
 display: flex;
 padding-top:3rem;
 height:40.5rem;
+
+@media (max-width: 767px){
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
 `;
 
 const Who = styled.div`
@@ -23,23 +29,43 @@ const Who = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
+
+    @media (max-width: 767px){
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 const Coder = styled.div`
     width:30%;
     display:flex;
-    justify-content:center;
+    justify-content:center;   
+
+@media (max-width: 767px){
+    width: 100%;
+    height:25%;
+    flex-direction: column;
+    align-items: center;
+}
 `;
 
 const Heading=styled.h1`
 font-size:2.5rem;
 color:white;
 padding-bottom:2rem;
+
+@media (max-width: 767px){
+    width: 100%;
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom:4%;
+}
 `;
 
 const Diff=styled.span`
 color: #2ab3a1;
-;
 font-weight:bold;
 `;
 
@@ -51,6 +77,10 @@ font-weight:bold;
  const Bio2=styled.p`
  font-size:1.35rem;
  padding-bottom:2rem;
+
+ @media (max-width: 767px){
+    padding-bottom: 1.5rem;
+}
  `;
 
 const Parah=styled.div`
@@ -61,6 +91,11 @@ flex-direction:column;
 justify-content:center;
 color:white;
 font-weight: lighter;
+
+@media (max-width: 767px){
+    width: 100%;
+    padding-left:8%;
+}
 `;
 
 
@@ -70,16 +105,38 @@ text-align:center;
 display:flex;
 justify-content:center;
 flex-wrap:wrap;
+
+@media (max-width: 767px){
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    height:74rem;
+}
 `;
 const SkillsDiv=styled.div`
 width:100%;
 height:3rem;
+
+@media (max-width: 767px){
+    width:100%;
+    padding-top:16%;
+}
 `;
+
 const Skills=styled.div`
 font-size:2.5rem;
 color:white;
 font-weight:Bold;
 padding-bottom:2rem;
+
+@media (max-width: 767px){
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
 `;
 
 const SkillBox=styled.div`
@@ -92,6 +149,15 @@ flex-direction:row;
 justify-content:center;
 flex-wrap:wrap;
 align-items:center;
+
+@media (max-width: 767px){
+    width: 100%;
+    height:50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 `;
 
 const SkillHolder=styled.div`
@@ -110,6 +176,26 @@ transition: .5s;
     scale : 1.075;
     box-shadow: 0.15rem 0.15rem 0.8rem rgba(138, 76, 168, 0.7);
 }
+
+@media (max-width: 767px){
+
+    width: 8rem;
+    height: 6rem;
+    background-color: transparent;
+    border-radius: 0.35rem;
+    margin: 0.5rem;
+    border: 0.005rem solid #8a4ca8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  
+    &:hover {
+      transform: scale(1.075);
+      box-shadow: 0.15rem 0.15rem 0.8rem rgba(138, 76, 168, 0.7);
+    }
+  
+
 `;
 
 
