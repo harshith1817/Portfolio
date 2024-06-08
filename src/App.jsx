@@ -15,8 +15,6 @@ import { GoProjectSymlink } from "react-icons/go";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaCodeBranch } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
-import Lottie from 'lottie-react';
-import Background from '../public/LottieFiles/Background.json';
 import './App.css';
 
 const onClickHandle = (e) => {
@@ -290,11 +288,8 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Lottie 
-          className="bg" 
-          animationData={Background} 
-          loop={true} 
-        /> 
+
+      <img src="./public/assets/Background.png" alt="background" className='bg'/>
         <Preloader load={load} />
         <MoveToTop />
         <Nav>

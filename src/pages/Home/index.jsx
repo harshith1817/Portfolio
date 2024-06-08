@@ -2,13 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import Lottie from 'lottie-react';
 import Developer from "./Developer.json";
+import Person from "./person.json";
 import Hello from "./Hello.json";
 import Typewriter from "typewriter-effect";
 import Tilt from 'react-parallax-tilt';
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { GrMail } from "react-icons/gr";
-import './index.css';  // Make sure you import your CSS file
+import './index.css';  
 
 const SocialMediaDiv = styled.a`
   width: 2.5rem;
@@ -74,7 +75,11 @@ function Home() {
         </div>
         <div className='image'>
           <Tilt>
-            <img src="./public/assets/person.svg" alt="Person Illustration" />
+          <Lottie 
+            className="illustration" 
+            animationData={Person} 
+            loop={true} 
+          />
           </Tilt>
         </div>
       </section>
