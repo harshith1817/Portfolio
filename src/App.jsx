@@ -162,6 +162,25 @@ const SourceCodeBtn = styled.button`
   }
 `;
 
+const MobileSourceCodeBtn = styled.button`
+  width: 5.5rem;
+  height: 2.25rem;
+  border-radius: 0.4rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #643483;
+  position: relative;
+  transition: all 0.3s ease;
+  color: white;
+
+  &:hover {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    transform: translateY(-1.75px);
+    opacity: 0.8;
+  }
+`;
+
 const MobileNav = styled.nav`
   background: rgba(0, 0, 0, 0.6);
   position : fixed;
@@ -190,6 +209,7 @@ const MobileIcon = styled.div`
 
 const MobileMenu = styled.div`
   width: 100%;
+  height : 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -198,7 +218,6 @@ const MobileMenu = styled.div`
   position: fixed;
   top: 50px;
   right: 0;
-  padding: 12px 40px 24px 40px;
   background: rgba(0, 0, 0, 0.6);
   transition: all 0.6s ease-in-out;
   transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
@@ -211,12 +230,10 @@ const MobileMenu = styled.div`
 const MobileLink = styled(({ exact, activeClassName, ...props }) => (
   <NavLink {...props} exact={exact ? true : undefined} activeClassName={activeClassName ? 'active' : undefined} />
 ))`
-    color: white;
+  color: white;
   text-decoration: none;
-  margin-right: 3rem;
   font-size: 1.5rem;
   background-color: rgba(0, 0, 0, 0);
-  position: relative;
 
   &.active {
     font-weight: bold;
@@ -273,11 +290,11 @@ function App() {
   return (
     <Router>
       <div className="app">
-        {/* <Lottie 
+        <Lottie 
           className="bg" 
           animationData={Background} 
           loop={true} 
-        /> */}
+        /> 
         <Preloader load={load} />
         <MoveToTop />
         <Nav>
@@ -307,7 +324,8 @@ function App() {
                 <MobileLink to="/" onClick={()=>setIsOpen(!isOpen)}>Home</MobileLink>
                 <MobileLink to="/about" onClick={()=>setIsOpen(!isOpen)}>About</MobileLink>
                 <MobileLink to="/projects" onClick={()=>setIsOpen(!isOpen)}>Projects</MobileLink>
-                <MobileLink to="/resume" onClick={()=>setIsOpen(!isOpen)}>Resume</MobileLink>
+                <MobileLink to="/resume" onClick={()=>setIsOpen(!isOpen)}>Resume</MobileLink>  
+                <MobileSourceCodeBtn onClick={onClickHandle} className='github'><Icon> <FaCodeBranch /><FaStar /></Icon></MobileSourceCodeBtn>           
             </MobileMenu>
             </>
         }
