@@ -69,8 +69,8 @@ function Home() {
           <h1>Let's Get <span>Acquainted</span></h1>
           <div className='paragraph'>
             <p className='Greetings'>Welcome to the dynamic world of <span>Harshith Chintakindi</span>, where creativity meets invitation!</p>
-            <p>I am fluent in <span>Python</span> and know a bit of <span>Java</span> and am in the process of learning <span>DSA</span> and <span>DP</span>.</p>
-            <p>Looking for <span>Software Development</span> Positions.</p>
+            <p className='Greetings'>I am fluent in <span>Python</span> and know a bit of <span>Java</span> and am in the process of learning <span>DSA</span> and <span>DP</span>.</p>
+            <p className='Greetings'>Looking for <span>Software Development</span> Positions.</p>
           </div>
         </div>
         <div className='image'>
