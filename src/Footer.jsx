@@ -34,7 +34,7 @@ const Credits = styled.div`
 
   @media (max-width: 767px){
     margin: 0;
-    padding-right:10%;
+    padding-right:12%;
   }
 `;
 
@@ -65,7 +65,7 @@ const SocialMediaDiv = styled.div`
   @media (max-width: 767px){
     margin: 0;
     justify-content: center;
-    padding-right:15%;
+    padding-right:19%;
     gap:1rem;
   }
 `;
