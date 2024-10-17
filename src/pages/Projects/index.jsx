@@ -13,7 +13,7 @@ const Section = styled.section`
   height:95rem;
 
   @media (max-width: 767px){
-    height:185rem;
+    height:182rem;
   }
 `;
 
@@ -75,7 +75,7 @@ padding-bottom:2rem;
   @media (max-width: 767px){
   width: 20rem;
   height: 15rem;
-  padding:left:2.5rem;
+  padding:left:6rem;
   }
 `;
 
