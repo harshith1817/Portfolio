@@ -4,6 +4,7 @@ import CMRIT from './CMRIT.png'
 import AbhiBus from './AbhiBus.png'
 import TicTacToe from './TicTacToe.png'
 import Portfolio from './Portfolio.png'
+import CinemaSeek from './CinemaSeek.png'
 import { FaGithub } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 
@@ -49,6 +50,11 @@ const ProjectContainer = styled.div`
     scale : 1.075;
     transition: .5s;
     box-shadow: 0.15rem 0.15rem 0.8rem rgba(138, 76, 168, 0.7);
+
+  @media (max-width: 767px){
+  width: 20rem;
+  height: 30rem;
+  }
 }
 `;
 
@@ -183,6 +189,24 @@ function Projects() {
                     <FaGithub />&nbsp; GitHub
                 </Buttons>
                 <Buttons href="https://chbsh.vercel.app" target="_blank">
+                    <CgFileDocument />&nbsp; Demo
+                </Buttons>
+            </ButtonsContainer>
+            </ProjectContainer>
+            <ProjectContainer>
+            <Image>
+            <img src={CinemaSeek} className="projectss"/>
+            </Image>
+            <Discription>
+                <ProjectHeading>CinemaSeek</ProjectHeading>
+                <ProjectDesc>The Movie Search Application is a React-based web app that enables users to search for movie details and save their favorites. 
+                  With a responsive design and smooth loading animations, it provides an intuitive and engaging user experience.</ProjectDesc>
+            </Discription>
+            <ButtonsContainer>
+                <Buttons href="https://github.com/harshith1817/CinemaSeek/" target="_blank">
+                    <FaGithub />&nbsp; GitHub
+                </Buttons>
+                <Buttons href="https://cinema-seek.vercel.app" target="_blank">
                     <CgFileDocument />&nbsp; Demo
                 </Buttons>
             </ButtonsContainer>
