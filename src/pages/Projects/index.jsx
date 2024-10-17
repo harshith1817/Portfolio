@@ -13,7 +13,7 @@ const Section = styled.section`
   height:95rem;
 
   @media (max-width: 767px){
-    height:170rem;
+    height:190rem;
   }
 `;
 
@@ -50,10 +50,13 @@ const ProjectContainer = styled.div`
     scale : 1.075;
     transition: .5s;
     box-shadow: 0.15rem 0.15rem 0.8rem rgba(138, 76, 168, 0.7);
+  }
 
   @media (max-width: 767px){
-  width: 20rem;
+  width: 17rem;
   height: 30rem;
+  &:hover{
+  scale:1.05
   }
 }
 `;
@@ -67,11 +70,21 @@ padding-top:2rem;
 padding-bottom:2rem;
   width: 23.5rem;
   height: 16rem;
+  
+  @media (max-width: 767px){
+  width: 20rem;
+  height: 15rem;
+  }
 `;
 
 const Discription = styled.div`
 text-align:center;
 width:22rem;
+
+  @media (max-width: 767px){
+  width: 17rem;
+  }
+
 `;
 
 const ButtonsContainer = styled.div`
