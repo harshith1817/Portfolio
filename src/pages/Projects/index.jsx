@@ -11,7 +11,12 @@ import { CgFileDocument } from "react-icons/cg";
 const Section = styled.section`
   width: 100%;
   height:95rem;
-
+  @media (max-width: 1310px){
+    height:133rem;
+  }
+  @media (max-width: 900px){
+    height:209rem;
+  }
   @media (max-width: 767px){
     height:182rem;
   }
@@ -75,7 +80,6 @@ padding-bottom:2rem;
   @media (max-width: 767px){
   width: 20rem;
   height: 15rem;
-  padding:left:6rem;
   }
 `;
 
@@ -217,8 +221,9 @@ function Projects() {
             </Image>
             <Discription>
                 <ProjectHeading>CinemaSeek</ProjectHeading>
-                <ProjectDesc>The Movie Search Application is a React-based web app that enables users to search for movie details and save their favorites. 
-                  With a responsive design and smooth loading animations, it provides an intuitive and engaging user experience.</ProjectDesc>
+                <ProjectDesc>A React-based movie search application that allows users to search for films,
+                  view detailed information, and save their favorite movies in a responsive and user-friendly
+                  interface.</ProjectDesc>
             </Discription>
             <ButtonsContainer>
                 <Buttons href="https://github.com/harshith1817/CinemaSeek/" target="_blank">
