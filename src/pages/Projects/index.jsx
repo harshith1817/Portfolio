@@ -13,7 +13,7 @@ const Section = styled.section`
   height:95rem;
 
   @media (max-width: 767px){
-    height:190rem;
+    height:185rem;
   }
 `;
 
@@ -23,6 +23,10 @@ const MyProjects = styled.h1`
   padding-bottom: 2.5rem;
   text-align: center;
   font-size: 2.5rem;
+
+  @media (max-width: 767px){
+  padding-top: 7rem;
+  }
 `;
 
 const ProjectWorksContainer = styled.div`
@@ -53,11 +57,8 @@ const ProjectContainer = styled.div`
   }
 
   @media (max-width: 767px){
-  width: 17rem;
+  width: 18.5rem;
   height: 30rem;
-  &:hover{
-  scale:1.05
-  }
 }
 `;
 
@@ -74,6 +75,7 @@ padding-bottom:2rem;
   @media (max-width: 767px){
   width: 20rem;
   height: 15rem;
+  padding:left:2.5rem;
   }
 `;
 
@@ -123,6 +125,9 @@ Padding-bottom:1.5rem;
 const ProjectDesc=styled.p`
 color:white;
 text-align:left;
+  @media (max-width: 767px){
+padding-leftt:1.2rem;
+  }
 `;
 
 function Projects() {
