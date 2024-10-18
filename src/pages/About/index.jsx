@@ -175,6 +175,7 @@ transition: .5s;
 &:hover {
     scale : 1.075;
     box-shadow: 0.15rem 0.15rem 0.8rem rgba(138, 76, 168, 0.7);
+    cursor:pointer;
 }
 
 @media (max-width: 767px){
@@ -230,19 +231,19 @@ function About() {
                 <Skills>Professional <Diff>Skillset</Diff></Skills>
             </SkillsDiv>
             <SkillBox>
-                <SkillHolder><FaPython /></SkillHolder>
-                <SkillHolder><FaJava /></SkillHolder>
-                <SkillHolder><IoLogoJavascript /></SkillHolder>
-                <SkillHolder><FaHtml5 /></SkillHolder>
-                <SkillHolder><FaCss3 /></SkillHolder>
-                <SkillHolder><FaReact /></SkillHolder>
-                <SkillHolder><FaNodeJs /></SkillHolder>
-                <SkillHolder><SiExpress /></SkillHolder>
-                <SkillHolder><FaNpm /></SkillHolder>
-                <SkillHolder><SiSelenium /></SkillHolder>
-                <SkillHolder><FaGitAlt /></SkillHolder>
-                <SkillHolder><FaGithub /></SkillHolder>
-                <SkillHolder><VscVscode /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://www.python.org', '_blank')}><FaPython /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://www.oracle.com/java', '_blank')}><FaJava /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript', '_blank')}><IoLogoJavascript /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://html.spec.whatwg.org', '_blank')}><FaHtml5 /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://www.w3.org/Style/CSS', '_blank')}><FaCss3 /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://react.dev', '_blank')}><FaReact /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://nodejs.org/en', '_blank')}><FaNodeJs /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://expressjs.com', '_blank')}><SiExpress /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://www.npmjs.com', '_blank')}><FaNpm /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://www.selenium.dev', '_blank')}><SiSelenium /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://git-scm.com', '_blank')}><FaGitAlt /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://github.com', '_blank')}><FaGithub /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://code.visualstudio.com', '_blank')}><VscVscode /></SkillHolder>
             </SkillBox>
         </Part2>
     </AboutPage>
