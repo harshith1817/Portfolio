@@ -47,7 +47,7 @@ function Home() {
           <div className='typewriter'>
             <Typewriter 
               options={{
-                strings: ["Software Developer", "MERN Stack Developer"],
+                strings: ["Software Developer", "Frontend Developer"],
                 autoStart: true,
                 loop: true,
                 delay: 70,
@@ -69,7 +69,7 @@ function Home() {
           <h1>Let's Get <span>Acquainted</span></h1>
           <div className='paragraph'>
             <p className='Greetings'>Welcome to the dynamic world of <span>Harshith Chintakindi</span>, where creativity meets invitation!</p>
-            <p className='Greetings'>I am fluent in <span>Python</span> and know a bit of <span>Java</span> and am in the process of learning <span>DSA</span> and <span>DP</span>.</p>
+            <p className='Greetings'>I am fluent in <span>Python</span>, <span>C++</span> and know a bit of <span>Java</span> and am in the process of learning <span>DSA</span> and <span>DP</span>.</p>
             <p className='Greetings'>Looking for <span>Software Development</span> Positions.</p>
           </div>
         </div>

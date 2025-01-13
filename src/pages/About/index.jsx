@@ -5,7 +5,7 @@ import { FaPython,FaJava,FaHtml5,FaCss3,FaReact,FaNodeJs,FaNpm,FaGitAlt,FaGithub
 import { IoLogoJavascript } from "react-icons/io";
 import { SiExpress,SiSelenium } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
-
+import { TbBrandCpp } from "react-icons/tb";
 
 
 const AboutPage=styled.div`
@@ -232,6 +232,7 @@ function About() {
             </SkillsDiv>
             <SkillBox>
                 <SkillHolder onClick={() => window.open('https://www.python.org', '_blank')}><FaPython /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://isocpp.org', '_blank')}><TbBrandCpp /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://www.oracle.com/java', '_blank')}><FaJava /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript', '_blank')}><IoLogoJavascript /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://html.spec.whatwg.org', '_blank')}><FaHtml5 /></SkillHolder>
