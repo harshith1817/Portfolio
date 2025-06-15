@@ -1,9 +1,9 @@
 import Lottie from 'lottie-react';
 import Code from './coder.json';
 import styled from 'styled-components';
-import { FaPython,FaJava,FaHtml5,FaCss3,FaReact,FaNodeJs,FaNpm,FaGitAlt,FaGithub} from "react-icons/fa";
+import { FaPython,FaJava,FaHtml5,FaCss3,FaReact,FaGitAlt,FaGithub} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiExpress,SiSelenium } from "react-icons/si";
+import { SiNumpy, SiPandas, SiScikitlearn, SiOpencv, SiTensorflow, SiSelenium } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { TbBrandCpp } from "react-icons/tb";
 
@@ -52,7 +52,7 @@ const Coder = styled.div`
 `;
 
 const Heading=styled.h1`
-font-size:2.5rem;
+font-size:2.8rem;
 color:white;
 padding-bottom:2rem;
 
@@ -70,12 +70,12 @@ font-weight:bold;
 `;
 
  const Bio=styled.p`
- font-size:1.5rem;
+ font-size:1.6rem;
  padding-bottom:2rem;
  `;
 
  const Bio2=styled.p`
- font-size:1.5rem;
+ font-size:1.6rem;
  padding-bottom:2rem;
 
  @media (max-width: 767px){
@@ -100,7 +100,7 @@ font-weight: lighter;
 
 
 const Part2=styled.div`
-height:42rem;
+height:60rem;
 text-align:center;
 display:flex;
 justify-content:center;
@@ -110,7 +110,7 @@ flex-wrap:wrap;
     flex-direction: column;
     align-items: center;
     padding-top: 1.5rem;
-    height:74rem;
+    height:85rem;
 }
 `;
 const SkillsDiv=styled.div`
@@ -207,7 +207,7 @@ function About() {
         <Part1>
             <Who>
                 <Parah>
-                    <Heading>Get to <Diff>Know</Diff> me!</Heading>
+                    <Heading>Get to <Diff> Know </Diff> me!</Heading>
                     <Bio>Hi, I'm <Diff>Harshith Chintakindi</Diff> from Hyderabad, India.
                         I recently graduated in <Diff>Artificial Intelligence and Data Science</Diff> from <Diff>CMR Institute of Technology, Hyderabad</Diff>, 
                         and I'm passionate about applying AI to solve real-world problems.
@@ -232,14 +232,16 @@ function About() {
             <SkillBox>
                 <SkillHolder onClick={() => window.open('https://www.python.org', '_blank')}><FaPython /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://isocpp.org', '_blank')}><TbBrandCpp /></SkillHolder>
-                <SkillHolder onClick={() => window.open('https://www.oracle.com/java', '_blank')}><FaJava /></SkillHolder>
-                <SkillHolder onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript', '_blank')}><IoLogoJavascript /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://www.java.com', '_blank')}><FaJava /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://numpy.org', '_blank')}><SiNumpy /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://www.python.org', '_blank')}><SiPandas /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://scikit-learn.org', '_blank')}><SiScikitlearn /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://opencv.org', '_blank')}><SiOpencv /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://www.tensorflow.org', '_blank')}><SiTensorflow/></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://html.spec.whatwg.org', '_blank')}><FaHtml5 /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://www.w3.org/Style/CSS', '_blank')}><FaCss3 /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://developer.mozilla.org/en-US/docs/Web/JavaScript', '_blank')}><IoLogoJavascript /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://react.dev', '_blank')}><FaReact /></SkillHolder>
-                <SkillHolder onClick={() => window.open('https://nodejs.org/en', '_blank')}><FaNodeJs /></SkillHolder>
-                <SkillHolder onClick={() => window.open('https://expressjs.com', '_blank')}><SiExpress /></SkillHolder>
-                <SkillHolder onClick={() => window.open('https://www.npmjs.com', '_blank')}><FaNpm /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://www.selenium.dev', '_blank')}><SiSelenium /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://git-scm.com', '_blank')}><FaGitAlt /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://github.com', '_blank')}><FaGithub /></SkillHolder>
