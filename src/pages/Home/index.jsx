@@ -47,7 +47,7 @@ function Home() {
           <div className='typewriter'>
             <Typewriter 
               options={{
-                strings: ["Software Developer", "Frontend Developer"],
+                strings: ["Aspiring ML Engineer", "AI & Data Science Graduate"],
                 autoStart: true,
                 loop: true,
                 delay: 70,
@@ -68,9 +68,9 @@ function Home() {
         <div className='intro'>
           <h1>Let's Get <span>Acquainted</span></h1>
           <div className='paragraph'>
-            <p className='Greetings'>Welcome to the dynamic world of <span>Harshith Chintakindi</span>, where creativity meets invitation!</p>
-            <p className='Greetings'>I am fluent in <span>Python</span>, <span>C++</span> and know a bit of <span>Java</span> and am in the process of learning <span>DSA</span> and <span>DP</span>.</p>
-            <p className='Greetings'>Looking for <span>Software Development</span> Positions.</p>
+            <p className='Greetings'>Welcome to the dynamic world of <span>Harshith Chintakindi</span> — where AI meets practical innovation.</p>
+            <p className='Greetings'>I'm a graduate in <span>AI and Data Science</span>, proficient in <span>Python</span>, with working knowledge of <span>Java</span> and <span>C++</span>. I have hands-on experience in <span>Machine Learning</span>, <span>Deep Learning</span>, and <span>Data Analysis</span> through projects and self-learning.</p>
+            <p className='Greetings'>I'm currently seeking opportunities in <span>ML</span> and <span>AI-driven software development</span> to apply my skills and grow as a developer.</p>
           </div>
         </div>
         <div className='image'>
