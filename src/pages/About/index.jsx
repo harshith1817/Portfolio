@@ -44,6 +44,7 @@ const Coder = styled.div`
     justify-content:center;   
 
 @media (max-width: 767px){
+    padding-top: 1.5rem;
     width: 95%;
     height:50%;
     flex-direction: column;
@@ -57,9 +58,10 @@ color:white;
 padding-bottom:2rem;
 
 @media (max-width: 767px){
+    font-size:2.1rem;
     width: 100%;
     display: flex;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     padding-bottom:4%;
 }
 `;
@@ -153,7 +155,7 @@ align-items:center;
 
 @media (max-width: 767px){
     width: 100%;
-    height:50%;
+    height:45%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -235,7 +237,7 @@ function About() {
                 <SkillHolder onClick={() => window.open('https://isocpp.org', '_blank')}><TbBrandCpp /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://www.java.com', '_blank')}><FaJava /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://numpy.org', '_blank')}><SiNumpy /></SkillHolder>
-                <SkillHolder onClick={() => window.open('https://www.python.org', '_blank')}><SiPandas /></SkillHolder>
+                <SkillHolder onClick={() => window.open('https://pandas.pydata.org', '_blank')}><SiPandas /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://scikit-learn.org', '_blank')}><SiScikitlearn /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://opencv.org', '_blank')}><SiOpencv /></SkillHolder>
                 <SkillHolder onClick={() => window.open('https://www.tensorflow.org', '_blank')}><SiTensorflow/></SkillHolder>
