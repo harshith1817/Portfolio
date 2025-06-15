@@ -96,7 +96,7 @@ font-weight: lighter;
 
 @media (max-width: 767px){
     width: 85%;
-    padding-left:8%;
+    padding-left: 5%;
 }
 `;
 
@@ -155,7 +155,7 @@ align-items:center;
 
 @media (max-width: 767px){
     width: 100%;
-    height:45%;
+    height:35%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -210,7 +210,7 @@ function About() {
         <Part1>
             <Who>
                 <Parah>
-                    <Heading>Get to <Diff>Know</Diff> me!</Heading>
+                    <Heading>Get to <Diff> Know </Diff> me!</Heading>
                     <Bio>Hi, I'm <Diff>Harshith Chintakindi</Diff> from Hyderabad, India.
                         I recently graduated in <Diff>Artificial Intelligence and Data Science</Diff> from <Diff>CMR Institute of Technology, Hyderabad</Diff>, 
                         and I'm passionate about applying AI to solve real-world problems.
