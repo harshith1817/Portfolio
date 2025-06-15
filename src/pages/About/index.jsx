@@ -44,8 +44,8 @@ const Coder = styled.div`
     justify-content:center;   
 
 @media (max-width: 767px){
-    width: 100%;
-    height:25%;
+    width: 95%;
+    height:50%;
     flex-direction: column;
     align-items: center;
 }
@@ -100,11 +100,12 @@ font-weight: lighter;
 
 
 const Part2=styled.div`
-height:60rem;
+height:45rem;
 text-align:center;
 display:flex;
 justify-content:center;
 flex-wrap:wrap;
+padding-bottom:7.5rem;
 
 @media (max-width: 767px){
     flex-direction: column;
@@ -207,7 +208,7 @@ function About() {
         <Part1>
             <Who>
                 <Parah>
-                    <Heading>Get to <Diff> Know </Diff> me!</Heading>
+                    <Heading>Get to <Diff>Know</Diff> me!</Heading>
                     <Bio>Hi, I'm <Diff>Harshith Chintakindi</Diff> from Hyderabad, India.
                         I recently graduated in <Diff>Artificial Intelligence and Data Science</Diff> from <Diff>CMR Institute of Technology, Hyderabad</Diff>, 
                         and I'm passionate about applying AI to solve real-world problems.
