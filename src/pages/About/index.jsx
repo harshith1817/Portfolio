@@ -70,12 +70,12 @@ font-weight:bold;
 `;
 
  const Bio=styled.p`
- font-size:1.35rem;
+ font-size:1.5rem;
  padding-bottom:2rem;
  `;
 
  const Bio2=styled.p`
- font-size:1.35rem;
+ font-size:1.5rem;
  padding-bottom:2rem;
 
  @media (max-width: 767px){
@@ -208,14 +208,13 @@ function About() {
             <Who>
                 <Parah>
                     <Heading>Get to <Diff>Know</Diff> me!</Heading>
-                    <Bio>Hi, my name is <Diff>Harshith Chintakindi</Diff> and I am from Hyderabad, India.
-                        I'm currently pursuing a degree in <Diff>Artificial Intelligence and Data Science </Diff>from CMR Institute Of Technology, Hyderabad.
-                        I'm eager to embark on my career in <Diff>software development</Diff>.
-                        
+                    <Bio>Hi, I'm <Diff>Harshith Chintakindi</Diff> from Hyderabad, India.
+                        I recently graduated in <Diff>Artificial Intelligence and Data Science</Diff> from <Diff>CMR Institute of Technology, Hyderabad</Diff>, 
+                        and I'm passionate about applying AI to solve real-world problems.
                     </Bio>
                     <Bio2>
-                        I'm actively learning and honing my skills in preparation for my transition into the industry.
-                        I'm currently working on <Diff>personal projects</Diff> to strengthen my <Diff>programming abilities</Diff> and gain practical experience.
+                        I'm currently working on personal projects to strengthen my skills in <Diff>machine learning</Diff>, <Diff>data analysis</Diff>, and <Diff>software development</Diff>, 
+                        as I prepare to launch my career in the tech industry.
                     </Bio2>
                 </Parah>
             </Who>
