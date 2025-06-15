@@ -5,34 +5,36 @@ import pdfFile from './Resume.pdf';
 import Image from './Resume.jpg'
 
 const ResumePage = styled.section`
-  width: 100%;
-  @media (max-width: 767px) {
-    padding-top: 20%;
+  width: 100%;  
+
+  @media (max-width: 767px){
+    padding-top:20%;
   }
 `;
 
 const ResumeDiv = styled.div`
+  height: 52rem;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 6rem;
-
-  @media (max-width: 767px) {
-    height: 35rem;
+  
+  @media (max-width: 767px){
+    height:35rem;
   }
 `;
 
 const ResumeImg = styled.div`
   width: 40rem;
   height: 50rem;
-  border: none;
   background-size: cover;
   background-position: center;
   background-color:white;
   
-
-  @media (max-width: 767px) {
+  @media (max-width: 767px){
     width: 90%;
-    height: 95%;
+    height:95%;
+
   }
 `;
 
@@ -64,16 +66,17 @@ const Download = styled.a`
 `;
 
 function Resume() {
+
   return (
     <ResumePage>
       <ResumeDiv>
           <ResumeImg>
-            <img src={Image} className="ResumeImage"/>
+          <img src={Image} className="ResumeImage"/>
           </ResumeImg>
       </ResumeDiv>
       <DownloadContainer>
         <Download href={pdfFile} download>
-          <IoMdDownload/> Download Resume
+          <IoMdDownload /> Download Resume
         </Download>
       </DownloadContainer>
     </ResumePage>
@@ -81,4 +84,3 @@ function Resume() {
 }
 
 export default Resume;
-
