@@ -92,7 +92,7 @@ body, html {
 }
 
 .part2 .intro p {
-  font-size: 2rem;  
+  font-size: 1.8rem;  
   color: white;
   padding-top: 1rem;
 }
@@ -165,7 +165,7 @@ body, html {
   }
 
   .part2 .intro p {
-    font-size: 2rem;  /* Further increased font size */
+    font-size: 1.8rem;  /* Further increased font size */
   }
 
   .part3 h1 {

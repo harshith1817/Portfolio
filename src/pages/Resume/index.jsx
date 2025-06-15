@@ -2,13 +2,11 @@ import './index.css';
 import styled from 'styled-components';
 import { IoMdDownload } from "react-icons/io";
 import pdfFile from './Resume.pdf';
-import Image from './Resume.jpg'
 
 const ResumePage = styled.section`
-  width: 100%;  
-
-  @media (max-width: 767px){
-    padding-top:20%;
+  width: 100%;
+  @media (max-width: 767px) {
+    padding-top: 20%;
   }
 `;
 
@@ -18,23 +16,20 @@ const ResumeDiv = styled.div`
   align-items: center;
   justify-content: center;
   padding-top: 6rem;
-  
-  @media (max-width: 767px){
-    height:35rem;
+
+  @media (max-width: 767px) {
+    height: 35rem;
   }
 `;
 
-const ResumeImg = styled.div`
+const ResumeIframe = styled.embed`
   width: 40rem;
   height: 50rem;
-  background-size: cover;
-  background-position: center;
-  background-color:white;
-  
-  @media (max-width: 767px){
-    width: 90%;
-    height:95%;
+  border: none;
 
+  @media (max-width: 767px) {
+    width: 90%;
+    height: 95%;
   }
 `;
 
@@ -66,17 +61,14 @@ const Download = styled.a`
 `;
 
 function Resume() {
-
   return (
     <ResumePage>
       <ResumeDiv>
-          <ResumeImg>
-          <img src={Image} className="ResumeImage"/>
-          </ResumeImg>
+        <ResumeIframe src={pdfFile} title="My Resume" />
       </ResumeDiv>
       <DownloadContainer>
         <Download href={pdfFile} download>
-          <IoMdDownload /> Download Resume
+          <IoMdDownload style={{ marginRight: "0.5rem" }} /> Download Resume
         </Download>
       </DownloadContainer>
     </ResumePage>
