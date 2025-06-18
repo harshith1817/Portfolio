@@ -8,7 +8,7 @@ const ResumePage = styled.section`
   width: 100%;  
 
   @media (max-width: 767px){
-    padding-top:10%;
+    padding-top:5%;
   }
 `;
 
@@ -17,10 +17,10 @@ const ResumeDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 6rem;
+  padding-top: 3rem;
   
   @media (max-width: 767px){
-    height:35rem;
+    height:33rem;
   }
 `;
 
