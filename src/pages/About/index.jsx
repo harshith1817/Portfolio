@@ -61,6 +61,8 @@ padding-bottom:2rem;
     font-size:2.1rem;
     width: 100%;
     display: flex;
+    justify-content: center;
+    text-align: center;
     padding-top: 2rem;
     padding-bottom:4%;
 }
@@ -96,7 +98,6 @@ font-weight: lighter;
 
 @media (max-width: 767px){
     width: 85%;
-    padding-left: 5%;
     align-items: center;
     text-align: center;
 }

@@ -17,10 +17,11 @@ const ResumeDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 5rem;
   
   @media (max-width: 767px){
     height:33rem;
+    padding-top: 3rem;
   }
 `;
 
