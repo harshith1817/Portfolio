@@ -97,6 +97,8 @@ font-weight: lighter;
 @media (max-width: 767px){
     width: 85%;
     padding-left: 5%;
+    align-items: center;
+    text-align: center;
 }
 `;
 
