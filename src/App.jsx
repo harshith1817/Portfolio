@@ -8,6 +8,7 @@ import Resume from './pages/Resume';
 import Footer from './Footer';
 import MoveToTop from "./components/MoveToTop";
 import Preloader from "./components/Preloader.jsx";
+import Bot from './components/Bot/Bot.jsx';
 import {FaBars} from "react-icons/fa";
 import { AiTwotoneHome } from "react-icons/ai";
 import { FaUser } from "react-icons/fa";
@@ -331,6 +332,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/resume' element={<Resume />} />
         </Routes>
+        <Bot />
         <Footer />
       </div>
     </Router>
