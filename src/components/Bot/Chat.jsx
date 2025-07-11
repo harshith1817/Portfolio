@@ -66,7 +66,7 @@ const CloseButton = styled.button`
 
 const Message = styled.div`
     height: 77%;
-    width: 92.5%;
+    width: 92%;
     text-align: center;
     display: flex;
     flex-direction: column;
