@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+transformers
+sentence-transformers
+scikit-learn
+spacy
+torch
+datasets

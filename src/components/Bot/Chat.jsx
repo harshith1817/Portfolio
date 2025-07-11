@@ -239,7 +239,8 @@ function Chat() {
         setMessages((prev) => [...prev, { type: 'loader', id: loaderId }]);
 
         try {
-            const response = await fetch('http://localhost:8000/chat', {
+            // const response = await fetch('http://localhost:8000/chat', {
+            const response = await fetch('https://harshith1817--portfolio.hf.space/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
