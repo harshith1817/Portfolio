@@ -1,0 +1,382 @@
+[
+  {
+    "question": "hello",
+    "answer": "Hi there! I'm ResuME. Feel free to ask me anything about Harshith."
+  },
+  {
+    "question": "how are you",
+    "answer": "I'm just a bunch of code, but I'm functioning perfectly! Thanks for asking 😊"
+  },
+  {
+    "question": "bye",
+    "answer": "Goodbye! It was nice chatting with you. Come back anytime to learn more about Harshith."
+  },
+  {
+    "question": "thank you",
+    "answer": "You're welcome! Let me know if there's anything else you'd like to know."
+  },
+  {
+    "question": "who created you",
+    "answer": "I was created by Harshith himself to help showcase his background, skills, and projects!"
+  },
+  {
+    "question": "What is ResuME?",
+    "answer": "ResuME is a smart personal chatbot created by Harshith to answer questions about his education, skills, projects, and more."
+  },
+  {
+    "question": "Who built you?",
+    "answer": "I was built by Bhargav Sri Harshith as part of his personal portfolio project to showcase his NLP and full-stack development skills."
+  },
+  {
+    "question": "What are you?",
+    "answer": "I am an AI-powered resume assistant trained to answer questions about Harshith's background and capabilities."
+  },
+  {
+    "question": "How were you built?",
+    "answer": "I was built using React.js for the frontend, FastAPI for the backend, and Transformers for semantic question matching."
+  },
+  {
+    "question": "What can you do?",
+    "answer": "I can answer questions about Harshith’s education, projects, skills, interests, and more. Just ask!"
+  },
+  {
+    "question": "Are you a real AI?",
+    "answer": "I use real AI under the hood. While I don’t generate long texts like ChatGPT, I use machine learning to understand your question and fetch the best matching answer."
+  },
+  {
+    "question": "Are you connected to the internet?",
+    "answer": "No, I don’t browse the internet. I answer based on preloaded information provided by Harshith."
+  },
+  {
+    "question": "Why is your name ResuME?",
+    "answer": "It’s a play on words — 'Resume' and 'Me'. It reflects that I am Harshith’s smart resume assistant."
+  },
+  {
+    "question": "Can I ask fun questions too?",
+    "answer": "Absolutely! You can ask about Harshith’s hobbies, interests, or even fun facts!"
+  },
+  {
+    "question": "Are you still under development?",
+    "answer": "I am fully functional, but Harshith is always working to improve me with better features and answers."
+  },
+  {
+    "question": "What can you do?",
+    "answer": "I can answer questions about Harshith's education, skills, certifications, projects, and more—based on his resume."
+  },
+    {
+    "question": "Who is Harshith?",
+    "answer": "Bhargav Sri Harshith Chintakindi is a recent B.Tech graduate in Artificial Intelligence and Data Science at CMR Institute of Technology, Hyderabad, passionate about machine learning, data science, and NLP."
+  },
+  {
+    "question": "What did he study?",
+    "answer": "Harshith completed his B.Tech in Artificial Intelligence and Data Science from CMR Institute of Technology, Hyderabad."
+  },
+  {
+    "question": "Which college did Harshith graduate from?",
+    "answer": "He was graduated from CMR Institute of Technology, Hyderabad, in Artificial Intelligence and Data Science."
+  },
+  {
+    "question": "What programming languages does he know?",
+    "answer": "He is proficient in Python, C++, Java, and SQL."
+  },
+  {
+    "question": "What are his skills?",
+    "answer": "His skills include web development, machine learning, NLP, computer vision, geospatial analysis, and tools like Git, Selenium, FastAPI, and React.js."
+  },
+  {
+    "question": "Tell me about his certifications.",
+    "answer": "Harshith has completed certifications from Coursera (OOP in Java), Simplilearn (Machine Learning), Infosys Springboard (Data Science), Udemy (Git), and Smart Interviews (DSA & Problem Solving)."
+  },
+  {
+    "question": "What projects has he worked on?",
+    "answer": "He has worked on a React portfolio with an integrated chatbot, a CMRIT website clone, a movie search app called Cinema Seek, and automation testing of a ticket booking site using Selenium."
+  },
+  {
+    "question": "What are his social links?",
+    "answer": "GitHub: https://github.com/harshith1817 | LinkedIn: https://linkedin.com/in/chbsh | Portfolio: https://chbsh.vercel.app"
+  },
+  {
+    "question": "Can I download his resume?",
+    "answer": "Yes, You can download his resume from the resume section of his portfolio at https://chbsh.vercel.app/resume."
+  },
+  {
+    "question": "How can I contact him?",
+    "answer": "You can email him at chintakindibhargav2016@gmail.com or call at +91-8019801084."
+  },
+  {
+    "question": "What is your favorite project?",
+    "answer": "The ResuME chatbot project stands out as it combines full-stack development and NLP to create a personalized assistant experience."
+  },
+  {
+    "question": "What are Harshith's hobbies?",
+    "answer": "Harshith enjoys playing chess, badminton, and cricket. He also likes watching web series and movies."
+  },
+  {
+    "question": "What are his strengths?",
+    "answer": "Harshith is good at problem solving, team management, and adapting quickly to new challenges."
+  },
+  {
+    "question": "What is Harshith's weakness?",
+    "answer": "He often works overtime in pursuit of perfection, which he considers both a strength and a weakness."
+  },
+  {
+    "question": "Tell me about his family.",
+    "answer": "Harshith comes from a humble family. His father is a tailor, his mother is a homemaker, and he has a younger sister."
+  },
+  {
+    "question": "Which languages does he speak?",
+    "answer": "Harshith is fluent in Telugu, Hindi, and English."
+  },
+  {
+    "question": "Does he prefer working alone or in teams?",
+    "answer": "Harshith is comfortable working both independently and in team environments."
+  },
+  {
+    "question": "What motivates Harshith?",
+    "answer": "His passion for coding and building real-world projects is what motivates him the most."
+  },
+  {
+    "question": "Any fun facts or hidden talents?",
+    "answer": "Harshith is always learning something new in tech, but he doesn’t claim any hidden talents—just a strong dedication to his goals."
+  },
+  {
+    "question": "Explain Harshith's portfolio project.",
+    "answer": "Harshith built a personal portfolio website using HTML5, CSS3, JavaScript, and React.js. It showcases his bio, skills, projects, and contact info, and is hosted on GitHub."
+  },
+  {
+    "question": "What is the CinemaSeek project?",
+    "answer": "CinemaSeek is a React-based web application that uses the IMDb API to show movie details like rating, cast, plot, and allows users to save favorite movies."
+  },
+  {
+    "question": "Tell me about the ResuME chatbot project.",
+    "answer": "ResuME is an AI-powered chatbot built with FastAPI and React.js that answers personalized questions about Harshith's resume using NLP."
+  },
+  {
+    "question": "Describe the automation testing project.",
+    "answer": "He used Selenium and Java to automate the AbhiBus ticket booking site, testing various features like search, login, and booking."
+  },
+  {
+    "question": "Which languages does Harshith speak?",
+    "answer": "He is fluent in Telugu, Hindi, and English."
+  },
+  {
+    "question": "How does he prefer working?",
+    "answer": "He is comfortable working both independently and as part of a team."
+  },
+  {
+    "question": "What are his future goals?",
+    "answer": "In five years, he aims to become a skilled professional, contribute to important projects, and potentially lead a team."
+  },
+  {
+    "question": "How does he answer about his CGPA?",
+    "answer": "He acknowledges the CGPA may not be high, but he focused more on learning real skills and working on hands-on projects."
+  },
+  {
+    "question": "Why should we hire Harshith?",
+    "answer": "He has strong programming skills, real project experience, adaptability, and passion for solving problems with technology."
+  },
+  {
+    "question": "What tools and technologies is Harshith familiar with?",
+    "answer": "Python, Java, C++, React.js, Selenium, Git, GitHub, HTML, CSS, JavaScript, TensorFlow, NumPy, Pandas, OpenCV, and more."
+  },
+  {
+   "question": "Let's go through his projects",
+   "answer": "Sure! Harshith has worked on multiple projects including a Portfolio Website, CinemaSeek (a movie search app using IMDb API), a CMRIT website clone, and Selenium-based automation testing for a ticket booking site. He’s also built 'ResuME', an AI chatbot that answers questions about his resume and background."
+  },
+  {
+    "question": "Where did he work previously?",
+    "answer": "Harshith gained hands-on experience through project-based learning during his B.Tech. He has not held a full-time job yet but is experienced with collaborative and independent development."
+  },
+  {
+    "question": "Has he done any freelance or part-time work?",
+    "answer": "Harshith has not taken up freelance or part-time jobs formally but has worked on multiple self-initiated and collaborative academic projects."
+  },
+  { 
+    "question": "Does he know version control?",
+    "answer": "Yes, Harshith is proficient in Git and GitHub, which he uses regularly for version control and managing his project repositories."
+  },
+  {
+    "question": "Does he have leadership skills?",
+    "answer": "Yes, Harshith has demonstrated leadership by managing project teams, taking initiative, and guiding peers during collaborative work in both academics and projects."
+  },
+  {
+    "question": "Let's go through his resume.",
+    "answer": "Sure! Harshith's resume highlights his B.Tech in AI & DS, technical skills (like Python, React, Selenium), and projects such as a portfolio website, CinemaSeek, and an automation testing system. He’s also passionate about problem-solving, team management, and coding."
+  },
+  {
+    "question": "Is he a good guy?",
+    "answer": "Yes! Harshith is known for his dedication, sincerity, and friendly personality. He’s hardworking and always eager to learn and help others."
+  },
+  {
+    "question": "Does he have a girlfriend?",
+    "answer": "That’s a personal question, but as of now, Harshith is fully focused on his career and personal growth."
+  },
+  {
+    "question": "What are his 10th marks?",
+    "answer": "Harshith secured 8.7 CGPA out of 10 in his 10th standard."
+  },
+  {
+    "question": "What are his intermediate marks?",
+    "answer": "Harshith scored 962 out of 1000 in his Intermediate (12th grade)."
+  },
+  {
+    "question": "What are his B.Tech marks?",
+    "answer": "He completed his B.Tech with a CGPA of 6.83 out of 10."
+  },
+  {
+    "question": "What are his marks?",
+    "answer": "Harshith scored 8.7 CGPA in 10th, 962/1000 in Intermediate, and 6.83 CGPA in B.Tech."
+  },
+  {
+    "question": "What is his highest graduation?",
+    "answer": "Harshith's highest qualification is a Bachelor of Technology (B.Tech) in Artificial Intelligence and Data Science."
+  },
+  {
+    "question": "What is his current marital status?",
+    "answer": "He is currently single and unmarried."
+  },
+  {
+    "question": "What advice does Harshith have for students?",
+    "answer": "Harshith believes in building practical skills through projects and staying consistent. He advises students to focus on learning, not just grades."
+  },
+  {
+   "question": "On which project is he currently working on?",
+   "answer": "Harshith is currently working on a LiDAR image segmentation project, where he is applying advanced techniques to process and analyze 3D point cloud data for object detection and segmentation."
+  },
+ {
+    "question": "Is Harshith currently available for job opportunities?",
+    "answer": "Yes, Harshith has completed his B.Tech and is actively looking for exciting job opportunities in the field of AI, Machine Learning, and Full Stack Development."
+  },
+  {
+    "question": "Is he open to relocation or remote work?",
+    "answer": "Yes, Harshith is open to both relocation and remote work opportunities depending on the project and learning potential."
+  },
+  {
+    "question": "Can Harshith work with APIs?",
+    "answer": "Yes, Harshith has experience working with REST APIs, especially while building projects like CinemaSeek using the IMDb API."
+  },
+  {
+    "question": "Is he a morning or night person?",
+    "answer": "Harshith is flexible but tends to be more productive at night, especially while coding or working on personal projects."
+  },
+  {
+    "question": "Does he prefer structured or flexible environments?",
+    "answer": "Harshith enjoys working in flexible environments that allow creativity and self-learning but can adapt to structured workflows when required."
+  },
+  {
+    "question": "Can you answer technical questions beyond Harshith?",
+    "answer": "I'm primarily built to answer questions about Harshith and his background. But if you're curious about general tech topics, I might be able to help!"
+  },
+  {
+    "question": "Can I ask you for resume tips or project suggestions?",
+    "answer": "Absolutely! I'm here to share Harshith’s journey, and if you're looking for tips or ideas, I’d be happy to share some based on his experience."
+  },
+  {
+    "question": "When was his resume last updated?",
+    "answer": "Harshith's resume was last updated in 9th July 2025 to include his latest projects, including the ResuME chatbot."
+  },
+  {
+    "question": "What is Harshith's favorite programming language?",
+    "answer": "Harshith enjoys working with Python the most, especially for machine learning and data science projects."
+  },
+  {
+    "question": "Does he have any pets?",
+    "answer": "Harshith does not have any pets at the moment, but he loves animals."
+  },
+  {
+    "question": "What is his favorite book or author?",
+    "answer": "Harshith enjoys reading books on technology and self-improvement, but he doesn't have a specific favorite author."
+  },
+  {
+    "question": "What is his favorite movie or genre?",
+    "answer": "Harshith enjoys science fiction and action movies, with a particular fondness for films that involve technology and innovation."
+  },
+  {
+    "question": "Does he have any favorite music or artists?",
+    "answer": "Harshith enjoys listening to a variety of music genres, including pop, rock, and instrumental music while coding."
+  },
+  {
+    "question": "What is his favorite food?",
+    "answer": "Harshith loves South Indian cuisine, especially dishes like dosa, idli, and biryani."
+  },
+  {
+    "question": "Does he have any favorite sports or teams?",
+    "answer": "Harshith enjoys playing cricket and badminton, and he supports the Indian national cricket team."
+  },
+  {
+    "question": "What is his favorite hobby?",
+    "answer": "In addition to coding, Harshith enjoys playing chess and watching web series."
+  },
+  {
+    "question": "What is his favorite quote or motto?",
+    "answer": "Harshith just bilieves in hope.'"
+  },
+  {
+    "question": "What is his favorite programming project?",
+    "answer": "Harshith's favorite project is the ResuME chatbot, as it combines his interests in AI, NLP, and full-stack development."
+  },
+  {
+    "question": "Does he have any favorite tech blogs or websites?",
+    "answer": "Harshith follows several tech blogs and websites like Medium, Towards Data Science, and Stack Overflow for the latest trends and solutions."
+  },
+  {
+    "question": "What is his favorite development tool?",
+    "answer": "Harshith prefers using Visual Studio Code for coding due to its versatility and extensive plugin support."
+  },
+  {
+    "question": "Does he have any favorite coding challenges or competitions?",
+    "answer": "Harshith enjoys participating in coding challenges on platforms like LeetCode and HackerRank to improve his problem-solving skills."
+  },
+  {
+    "question": "What is his favorite way to learn new technologies?",
+    "answer": "Harshith prefers hands-on learning through projects, online courses, and tutorials to grasp new technologies effectively."
+  },
+  {
+    "question": "Does he have any favorite podcasts or YouTube channels?",
+    "answer": "Harshith enjoys listening to tech podcasts and watching YouTube channels that focus on programming, AI, and data science."
+  },
+  {
+    "question": "What is his favorite way to relax after work?",
+    "answer": "Harshith likes to unwind by playing chess, watching movies, or spending time with friends and family."
+  },
+  {
+    "question": "What is his favorite way to stay updated with tech trends?",
+    "answer": "Harshith follows tech news websites, blogs, and participates in online communities to stay updated with the latest trends."
+  },
+  {
+    "question": "Does he have any favorite coding languages for specific tasks?",
+    "answer": "Harshith prefers Python for data science and machine learning tasks, while he uses JavaScript for web development."
+  },
+  {
+    "question": "What is his favorite way to network with other professionals?",
+    "answer": "Harshith enjoys networking through LinkedIn, attending tech events, and participating in online forums."
+  },
+  {
+    "question": "What is his favorite way to celebrate achievements?",
+    "answer": "Harshith likes to celebrate achievements with friends and family, often treating them to a nice meal or outing."
+  },
+  {
+    "question": "What is his favorite way to give back to the community?",
+    "answer": "Harshith believes in giving back by mentoring students, contributing to open-source projects, and participating in community service."
+  },
+  {
+    "question": "What is his favorite way to stay motivated?",
+    "answer": "Harshith stays motivated by setting clear goals, celebrating small wins, and continuously learning new skills."
+  },
+  {
+    "question": "What is his favorite way to handle stress?",
+    "answer": "Harshith handles stress by taking breaks, practicing mindfulness, and engaging in physical activities like sports."
+  },
+  {
+    "question": "What is his favorite way to approach problem-solving?",
+    "answer": "Harshith approaches problem-solving methodically, breaking down complex issues into manageable parts and applying logical reasoning."
+  },
+  {
+    "question": "What is his favorite way to collaborate with others?",
+    "answer": "Harshith enjoys collaborating through clear communication, sharing ideas openly, and using tools like GitHub for version control."
+  },
+  {
+    "question": "What is his favorite way to learn from failures?",
+    "answer": "Harshith believes in learning from failures by analyzing what went wrong, seeking feedback, and applying those lessons to future challenges."
+  }
+]
