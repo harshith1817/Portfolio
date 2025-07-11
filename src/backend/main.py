@@ -10,6 +10,7 @@ app.add_middleware(
         "http://localhost:5173",
         "https://chbsh.vercel.app"
     ],
+    # allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

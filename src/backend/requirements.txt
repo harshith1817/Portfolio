@@ -2,6 +2,7 @@ fastapi
 uvicorn[standard]
 transformers
 sentence-transformers
+sentencepiece
 scikit-learn
 spacy
 torch

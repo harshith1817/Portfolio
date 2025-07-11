@@ -66,14 +66,14 @@ const CloseButton = styled.button`
 
 const Message = styled.div`
     height: 77%;
-    width: 92%;
+    width: 92.5%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     @media (max-width: 767px) {
-        width: 91%;
+        width: 90.25%;
     }
 `;
 
@@ -240,7 +240,7 @@ function Chat() {
 
         try {
             // const response = await fetch('http://localhost:8000/chat', {
-            const response = await fetch('https://harshith1817--portfolio.hf.space/chat', {
+            const response = await fetch('https://harshith1817-portfolio.hf.space/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
