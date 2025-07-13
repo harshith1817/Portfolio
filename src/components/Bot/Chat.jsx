@@ -298,7 +298,6 @@ function Chat() {
                     <div ref={chatEndRef} />
                 </ChatMessages>
             </Message>
-
             <ChatFooter>
                 <FooterInputWrapper>
                     <FooterTextInput

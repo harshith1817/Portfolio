@@ -47,7 +47,7 @@ function Home() {
           <div className='typewriter'>
             <Typewriter 
               options={{
-                strings: ["Aspiring ML Engineer", "AI & Data Science Graduate"],
+                strings: ["AI & Data Science Graduate", "Aspiring  Software Engineer"],
                 autoStart: true,
                 loop: true,
                 delay: 70,
