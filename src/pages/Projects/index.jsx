@@ -5,6 +5,7 @@ import AbhiBus from './AbhiBus.png'
 import TicTacToe from './TicTacToe.png'
 import Portfolio from './Portfolio.png'
 import CinemaSeek from './CinemaSeek.png'
+import MLDriftMonitor from './MLDriftMonitor.png'
 import { FaGithub } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 
@@ -144,6 +145,61 @@ function Projects() {
       <ProjectWorksContainer>
         <ProjectContainer>
             <Image>
+                <img src={MLDriftMonitor} className="projectss"/>
+            </Image>
+            <Discription>
+                <ProjectHeading>ML Drift Monitor</ProjectHeading>
+                <ProjectDesc>Machine Learning Drift Monitoring framework that detects data drift, prediction drift, 
+                  and concept drift using KS Test, PSI, and model performance monitoring with a Streamlit dashboard.</ProjectDesc>
+            </Discription>
+            <ButtonsContainer>
+                <Buttons href="https://github.com/harshith1817/ML-Drift-Monitor" target="_blank">
+                    <FaGithub />&nbsp; GitHub
+                </Buttons>
+                <Buttons href="https://ml-drift-monitor-harsh.streamlit.app" target="_blank">
+                    <CgFileDocument />&nbsp; Demo
+                </Buttons>
+            </ButtonsContainer>
+        </ProjectContainer>
+          <ProjectContainer>
+            <Image>
+            <img src={Portfolio} className="projectss"/>
+            </Image>
+            <Discription>
+                <ProjectHeading>Portfolio</ProjectHeading>
+                <ProjectDesc>My portfolio, meticulously crafted using HTML, CSS, JavaScript, and React, 
+                        serves as a dynamic platform to showcase my projects and skills, providing visitors with an immersive experience.</ProjectDesc>
+            </Discription>
+            <ButtonsContainer>
+                <Buttons href="https://github.com/harshith1817/Portfolio/" target="_blank">
+                    <FaGithub />&nbsp; GitHub
+                </Buttons>
+                <Buttons href="https://chbsh.vercel.app" target="_blank">
+                    <CgFileDocument />&nbsp; Demo
+                </Buttons>
+            </ButtonsContainer>
+            </ProjectContainer>
+                   <ProjectContainer>
+            <Image>
+            <img src={CinemaSeek} className="projectss"/>
+            </Image>
+            <Discription>
+                <ProjectHeading>CinemaSeek</ProjectHeading>
+                <ProjectDesc>A React-based movie search application that allows users to search for films,
+                  view detailed information, and save their favorite movies in a responsive and user-friendly
+                  interface.</ProjectDesc>
+            </Discription>
+            <ButtonsContainer>
+                <Buttons href="https://github.com/harshith1817/CinemaSeek/" target="_blank">
+                    <FaGithub />&nbsp; GitHub
+                </Buttons>
+                <Buttons href="https://cinema-seek.vercel.app" target="_blank">
+                    <CgFileDocument />&nbsp; Demo
+                </Buttons>
+            </ButtonsContainer>
+          </ProjectContainer>
+          <ProjectContainer>
+            <Image>
                 <img src={CMRIT} className="projectss"/>
             </Image>
             <Discription>
@@ -197,43 +253,6 @@ function Projects() {
                 </Buttons>
             </ButtonsContainer>
         </ProjectContainer>
-        <ProjectContainer>
-            <Image>
-            <img src={Portfolio} className="projectss"/>
-            </Image>
-            <Discription>
-                <ProjectHeading>Portfolio</ProjectHeading>
-                <ProjectDesc>My portfolio, meticulously crafted using HTML, CSS, JavaScript, and React, 
-                        serves as a dynamic platform to showcase my projects and skills, providing visitors with an immersive experience.</ProjectDesc>
-            </Discription>
-            <ButtonsContainer>
-                <Buttons href="https://github.com/harshith1817/Portfolio/" target="_blank">
-                    <FaGithub />&nbsp; GitHub
-                </Buttons>
-                <Buttons href="https://chbsh.vercel.app" target="_blank">
-                    <CgFileDocument />&nbsp; Demo
-                </Buttons>
-            </ButtonsContainer>
-            </ProjectContainer>
-            <ProjectContainer>
-            <Image>
-            <img src={CinemaSeek} className="projectss"/>
-            </Image>
-            <Discription>
-                <ProjectHeading>CinemaSeek</ProjectHeading>
-                <ProjectDesc>A React-based movie search application that allows users to search for films,
-                  view detailed information, and save their favorite movies in a responsive and user-friendly
-                  interface.</ProjectDesc>
-            </Discription>
-            <ButtonsContainer>
-                <Buttons href="https://github.com/harshith1817/CinemaSeek/" target="_blank">
-                    <FaGithub />&nbsp; GitHub
-                </Buttons>
-                <Buttons href="https://cinema-seek.vercel.app" target="_blank">
-                    <CgFileDocument />&nbsp; Demo
-                </Buttons>
-            </ButtonsContainer>
-            </ProjectContainer>
       </ProjectWorksContainer>
     </Section>
   );
