@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { FaGithub, FaLinkedin, FaRegCopyright, FaInstagram } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";

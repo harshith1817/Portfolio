@@ -2,7 +2,6 @@ import "./index.css";
 import styled from 'styled-components';
 import CMRIT from './CMRIT.png'
 import AbhiBus from './AbhiBus.png'
-import TicTacToe from './TicTacToe.png'
 import Portfolio from './Portfolio.png'
 import CinemaSeek from './CinemaSeek.png'
 import MLDriftMonitor from './MLDriftMonitor.png'
@@ -19,7 +18,7 @@ const Section = styled.section`
     height:209rem;
   }
   @media (max-width: 767px){
-    height:182rem;
+    height:184rem;
   }
 `;
 
@@ -125,6 +124,16 @@ text-decoration: none;
 const ProjectHeading=styled.h1`
 color:white;
 Padding-bottom:1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.4rem;
+    Padding-bottom:1.3rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.2rem;
+    Padding-bottom:1.15rem;
+  }
 `;
 
 const ProjectDesc=styled.p`
@@ -230,25 +239,6 @@ function Projects() {
                 <FaGithub />&nbsp; GitHub
                 </Buttons >
                 <Buttons href="https://drive.google.com/file/d/16hvGmxlIVc8PwkaJ4QkE_q7-Z1N0ubkR/view" target="_blank">
-                    <CgFileDocument />&nbsp; Demo
-                </Buttons>
-            </ButtonsContainer>
-        </ProjectContainer>
-        <ProjectContainer>
-            <Image>
-                <img src={TicTacToe} className="projectss"/>
-            </Image>
-            <Discription>
-                
-            <ProjectHeading>TicTacToe Game</ProjectHeading>
-                    <ProjectDesc>This project highlights my front-end web skills with modern design
-                    principles, featuring clean layout, typography, and intuitive navigation.</ProjectDesc>
-            </Discription>
-            <ButtonsContainer>
-                <Buttons href="https://github.com/harshith1817/TicTacToe" target="_blank">
-                <FaGithub />&nbsp; GitHub
-                </Buttons>
-                <Buttons href="https://harshith1817.github.io/TicTacToe/" target="_blank">
                     <CgFileDocument />&nbsp; Demo
                 </Buttons>
             </ButtonsContainer>
