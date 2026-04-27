@@ -1,6 +1,6 @@
 import "./index.css";
 import styled from 'styled-components';
-import CMRIT from './CMRIT.png'
+import Memlore from './Memlore.png'
 import AbhiBus from './AbhiBus.png'
 import Portfolio from './Portfolio.png'
 import CinemaSeek from './CinemaSeek.png'
@@ -188,7 +188,25 @@ function Projects() {
                 </Buttons>
             </ButtonsContainer>
             </ProjectContainer>
-                   <ProjectContainer>
+            <ProjectContainer>
+            <Image>
+                <img src={Memlore} className="projectss"/>
+            </Image>
+            <Discription>
+                <ProjectHeading>Memlore AI</ProjectHeading>
+                <ProjectDesc>A full-stack AI memory assistant that lets users store and retrieve personal information using natural language,
+                   built with FastAPI, React, and PostgreSQL, and deployed on Vercel and Hugging Face Spaces.</ProjectDesc>
+            </Discription>
+            <ButtonsContainer>
+                <Buttons href="https://github.com/harshith1817/Memlore" target="_blank">
+                    <FaGithub />&nbsp; GitHub
+                </Buttons>
+                <Buttons href="https://memlore.vercel.app" target="_blank">
+                    <CgFileDocument />&nbsp; Demo
+                </Buttons>
+            </ButtonsContainer>
+        </ProjectContainer>
+            <ProjectContainer>
             <Image>
             <img src={CinemaSeek} className="projectss"/>
             </Image>
@@ -207,24 +225,6 @@ function Projects() {
                 </Buttons>
             </ButtonsContainer>
           </ProjectContainer>
-          <ProjectContainer>
-            <Image>
-                <img src={CMRIT} className="projectss"/>
-            </Image>
-            <Discription>
-                <ProjectHeading>CMRIT Clone</ProjectHeading>
-                <ProjectDesc>Recreated CMR Institute of Technology's website using 
-                    HTML and CSS, showcasing modern web design techniques. Explore this project to experience it firsthand.</ProjectDesc>
-            </Discription>
-            <ButtonsContainer>
-                <Buttons href="https://github.com/harshith1817/CMRITHYD_CLONE" target="_blank">
-                    <FaGithub />&nbsp; GitHub
-                </Buttons>
-                <Buttons href="https://harshith1817.github.io/CMRITHYD_CLONE" target="_blank">
-                    <CgFileDocument />&nbsp; Demo
-                </Buttons>
-            </ButtonsContainer>
-        </ProjectContainer>
         <ProjectContainer>
           <Image>
           <img src={AbhiBus} className="projectss"/>
