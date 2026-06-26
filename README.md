@@ -1,6 +1,6 @@
 # Personal Portfolio – Harshith Chintakindi
 
-![Portfolio Screenshot](./public/assets/Screenshot.png)
+![Portfolio Screenshot](./Frontend/public/assets/Screenshot.png)
 
 ## 📌 Overview
 
