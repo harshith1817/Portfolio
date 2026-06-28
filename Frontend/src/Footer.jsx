@@ -24,7 +24,7 @@ color: white;
 
 const Credits = styled.div`
   height: 2.5rem;
-  width: 19rem;
+  width: 30%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ const Credits = styled.div`
 
 const CopyRights = styled.div`
   height: 2.5rem;
-  width: 16rem;
+  width: 20%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@ const CopyRights = styled.div`
 
 
 const SocialMediaDiv = styled.div`
-  width: 10%;
+  width: 20%;
   color: white;
   display: flex;
   align-items: center;
@@ -80,7 +80,7 @@ function Footer() {
   return (
     <Section>
       <Credits>
-        <p>Developed by Harshith Chintakindi</p>
+        <p>Designed and Developed by Harshith Chintakindi</p>
       </Credits>
       <CopyRights>
         <p>
@@ -91,7 +91,7 @@ function Footer() {
         <Connect href="https://github.com/harshith1817" target='_blank' rel="noopener noreferrer"><FaGithub /></Connect>
         <Connect href="https://www.linkedin.com/in/chbsh/" target='_blank' rel="noopener noreferrer"><FaLinkedin /></Connect>
         <Connect href='mailto:chintakindibhargav2016@gmail.com' target='_blank' rel="noopener noreferrer"><GrMail /></Connect>
-        <Connect href="https://www.instagram.com/harshithh.in" target="_blank" rel="noopener noreferrer"><FaInstagram /></Connect>     
+        <Connect href="https://www.instagram.com/thehsnbrg" target="_blank" rel="noopener noreferrer"><FaInstagram /></Connect>     
         <Connect href="https://www.x.com/harshith_1704" target="_blank" rel="noopener noreferrer"><FaXTwitter /></Connect> 
       </SocialMediaDiv>
     </Section>

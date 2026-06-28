@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Certifications from './pages/Certifications';
 import Resume from './pages/Resume';
 import Footer from './Footer';
 import MoveToTop from "./components/MoveToTop";
@@ -16,6 +17,7 @@ import { GoProjectSymlink } from "react-icons/go";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaCodeBranch } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
+import { TbCertificate } from "react-icons/tb";
 import './App.css';
 
 const onClickHandle = (e) => {
@@ -299,6 +301,7 @@ function App() {
             <MenuItem exact to='/'> <Icon> <AiTwotoneHome /> </Icon>Home</MenuItem>
             <MenuItem to='/about'> <Icon> <FaUser /> </Icon>About</MenuItem>
             <MenuItem to='/projects'> <Icon> <GoProjectSymlink /> </Icon>Projects</MenuItem>
+            <MenuItem to='/certifications'> <Icon> <TbCertificate /> </Icon>Certifications</MenuItem>
             <MenuItem to='/resume'> <Icon> <IoDocumentTextOutline /> </Icon>Resume</MenuItem>
             <SourceCodeBtn onClick={onClickHandle} className='github'><Icon> <FaCodeBranch /><FaStar /></Icon></SourceCodeBtn>
           </MenuItems>            
@@ -320,6 +323,7 @@ function App() {
                 <MobileLink to="/" onClick={()=>setIsOpen(!isOpen)}>Home</MobileLink>
                 <MobileLink to="/about" onClick={()=>setIsOpen(!isOpen)}>About</MobileLink>
                 <MobileLink to="/projects" onClick={()=>setIsOpen(!isOpen)}>Projects</MobileLink>
+                <MobileLink to="/Certifications" onClick={()=>setIsOpen(!isOpen)}>Certifications</MobileLink>  
                 <MobileLink to="/resume" onClick={()=>setIsOpen(!isOpen)}>Resume</MobileLink>  
                 <MobileSourceCodeBtn onClick={onClickHandle} className='github'><Icon> <FaCodeBranch /><FaStar /></Icon></MobileSourceCodeBtn>           
             </MobileMenu>
@@ -330,6 +334,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/Certifications' element={<Certifications />} />
           <Route path='/resume' element={<Resume />} />
         </Routes>
         <Bot />

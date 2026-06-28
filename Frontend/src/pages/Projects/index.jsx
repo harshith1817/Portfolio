@@ -60,6 +60,9 @@ const ProjectContainer = styled.div`
     transition: .5s;
     box-shadow: 0.15rem 0.15rem 0.8rem rgba(138, 76, 168, 0.7);
   }
+  &:hover h1 {
+    color: #2ab3a1;
+  }
 
   @media (max-width: 767px){
   width: 18.5rem;

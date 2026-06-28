@@ -92,7 +92,7 @@ function Home() {
           <SocialMediaDiv href="https://www.linkedin.com/in/chbsh" target="_blank">
             <FaLinkedin />
           </SocialMediaDiv>
-          <SocialMediaDiv href="https://www.instagram.com/harshithh.in" target="_blank">
+          <SocialMediaDiv href="https://www.instagram.com/thehsnbrg" target="_blank">
             <FaInstagram className='sm insta' />
           </SocialMediaDiv>
           <SocialMediaDiv href="https://www.x.com/harshith_1704" target="_blank">
