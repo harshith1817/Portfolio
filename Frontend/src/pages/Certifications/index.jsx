@@ -10,14 +10,8 @@ import { FaAward } from "react-icons/fa";
 const Section = styled.section`
   width: 100%;
   height: 100rem;
-  @media (max-width: 1310px){
-    height:133rem;
-  }
-  @media (max-width: 900px){
-    height:209rem;
-  }
   @media (max-width: 767px){
-    height:184rem;
+    height:210rem;
   }
 `;
 
@@ -28,7 +22,7 @@ const Professional = styled.h1`
   font-size: 1.8rem;
 
   @media (max-width: 767px){
-  padding-top: 7rem;
+font-size: 1.5rem;
   }
 `;
 
@@ -55,6 +49,9 @@ const CertificationsContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+    @media (max-width: 767px){
+    height: 147rem;
+    }
 `;
 
 const CertificateContainer = styled.div`
@@ -72,6 +69,10 @@ const CertificateContainer = styled.div`
     scale : 1.075;
     transition: .5s;
     box-shadow: 0.15rem 0.15rem 0.8rem rgba(138, 76, 168, 0.7);
+  }
+    
+  @media (max-width: 767px){
+    height:26rem;
   }
 `;
 
@@ -100,6 +101,9 @@ margin-right: 0.75rem;
 background-color: #A8E2DA;
 border-radius: 1rem;
 padding: 0.25rem 0.75rem;
+text-align: center;
+display: flex;
+align-items: center;
   `;
 
 const Viewbtn=styled.a`
@@ -175,7 +179,12 @@ const AchievementContainer = styled.div`
     box-shadow: 0.15rem 0.15rem 0.8rem rgba(138, 76, 168, 0.7);
     h3 {
       color: #2ab3a1;
+      }
 }
+  @media (max-width: 767px){
+    height:16rem;
+  }
+
 `;
 
 const AcheivementsHeading = styled.h1`
@@ -193,7 +202,12 @@ const AcheivementsHeading = styled.h1`
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+
+    @media (max-width: 767px){
+    height:25rem;
+  }
     `;
+
 
 const Badgediv=styled.div`
 width: 90%;

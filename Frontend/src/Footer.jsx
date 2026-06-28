@@ -4,7 +4,6 @@ import { GrMail } from "react-icons/gr";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Section = styled.section`
-
 width: 100%;
 height: 3.5rem;
 background-color: #0a0520;
@@ -34,7 +33,7 @@ const Credits = styled.div`
   @media (max-width: 767px){
     margin: 0;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     padding-right:5.75rem;
   }
 `;
