@@ -3,11 +3,13 @@ import { LiaCertificateSolid } from "react-icons/lia";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { TbHandClick } from "react-icons/tb";
 import { GiClick } from "react-icons/gi";
+import { FaStar } from "react-icons/fa";
+import { FaAward } from "react-icons/fa";
 
 
 const Section = styled.section`
   width: 100%;
-  height: 77rem;
+  height: 100rem;
   @media (max-width: 1310px){
     height:133rem;
   }
@@ -47,7 +49,7 @@ const CertificationsAchievements = styled.h1`
 
 const CertificationsContainer = styled.div`
   width: 100%;
-  height: 60rem;
+  height: 55rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -154,19 +156,10 @@ height: 20%;
 padding:1.5rem;
 `;
   
-const AchievementsContainer = styled.div`
-  width: 100%;
-  height: 30rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-`;
 
 const AchievementContainer = styled.div`
-  width: 25rem;
-  height: 24rem;
+  width: 29rem;
+  height: 14rem;
   box-shadow: 0.15rem 0.15rem 0.5rem rgba(138, 76, 168, 0.5);
   border-radius: 1rem;
   margin: 1.75rem;
@@ -175,12 +168,69 @@ const AchievementContainer = styled.div`
   flex-direction: column; 
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
   &:hover {
     scale : 1.075;
     transition: .5s;
     box-shadow: 0.15rem 0.15rem 0.8rem rgba(138, 76, 168, 0.7);
-  }
+    h3 {
+      color: #2ab3a1;
+}
 `;
+
+const AcheivementsHeading = styled.h1`
+  color: white;
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 1.8rem;
+  `;
+
+  const AchievementsContainerBox = styled.div`
+  width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    `;
+
+const Badgediv=styled.div`
+width: 90%;
+height: 20%;
+padding-top: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+`;
+
+const AcheivementTitle=styled.div`
+  color: white;
+  height: 20%;
+  width: 90%;
+  padding-top: 1rem;
+  display: flex;
+    justify-content: flex-start;
+`;
+
+const AcheivementDescription=styled.div`
+width: 90%;
+height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    `;
+
+const BadgeSpan=styled.span`
+color: #2ab3a1;
+margin-left: 0.75rem;
+border: 0.1rem solid #2ab3a1;
+border-radius: 1rem;
+padding: 0.25rem 0.75rem;
+  `;
+
 function Certifications(){
     return(
         <Section>
@@ -291,6 +341,44 @@ function Certifications(){
                     </ButtonsContainer>
                 </CertificateContainer>
             </CertificationsContainer>
+            <AcheivementsHeading>
+                Technical Achievements
+            </AcheivementsHeading>
+            <AchievementsContainerBox>
+                    <AchievementContainer   onClick={() =>
+                        window.open(
+                        "https://pyramid-it-learn.github.io/pyramid-leaderboards/##/leaderboard/CMRIT/CMRIT-2025-LEADERBOARD",
+                        "_blank"
+                        )
+                    }>
+                        <Badgediv>
+                            <h1 style={{ color: "#2ab3a1" }}><FaAward /></h1> &nbsp;<p style={{ fontSize: "0.75rem" }}><BadgeSpan>Coding Excellence</BadgeSpan></p>
+                        </Badgediv>
+                        <AcheivementTitle>
+                            <h3 style={{ fontSize: "1.2rem"}}>Top Coder - College Coding Tracker </h3>   
+                        </AcheivementTitle>
+                        <AcheivementDescription>
+                            Ranked among the top 7% of coders in the college coding leaderboard through consistent problem-solving and competitive programming performance.
+                        </AcheivementDescription>
+                    </AchievementContainer>
+
+                    <AchievementContainer  onClick={() =>
+                        window.open(
+                        "https://www.codechef.com/users/cmr_21r01a7219",
+                        "_blank"
+                        )
+                    }>
+                        <Badgediv>
+                            <h1 style={{ color: "#2ab3a1" }}><FaStar /></h1> &nbsp; <p style={{ fontSize: "0.75rem" }}><BadgeSpan>Competitive Programming</BadgeSpan></p>
+                        </Badgediv>
+                        <AcheivementTitle>   
+                            <h3 style={{ fontSize: "1.2rem" }}>CodeChef 2-Star Competitive Programmer</h3>   
+                        </AcheivementTitle>
+                        <AcheivementDescription>
+                            Solved 1800+ coding problems and participated in 50+ coding contests, maintaining a consistent daily problem-solving practice to continuously improve algorithmic thinking and coding proficiency.
+                        </AcheivementDescription>
+                    </AchievementContainer>
+            </AchievementsContainerBox>
         </Section>
     );
 }
