@@ -188,7 +188,7 @@ const MobileNav = styled.nav`
   display : flex;
   justify-content : space-between;
   width : 100%;
-  heigth : 40px;
+  heigth : 45px;
   align-items : center;
   padding : 0 10px;
 `;
@@ -210,7 +210,7 @@ const MobileIcon = styled.div`
 
 const MobileMenu = styled.div`
   width: 100%;
-  height : 250px;
+  height : 270px;
   display: flex;
   flex-direction: column;
   justify-content: center;

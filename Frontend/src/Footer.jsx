@@ -18,7 +18,7 @@ color: white;
     height:7rem;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0.5rem 2rem;
+    padding: 1rem 2rem;
   }
 `;
 
@@ -33,7 +33,9 @@ const Credits = styled.div`
 
   @media (max-width: 767px){
     margin: 0;
-    padding-right:2rem;
+    justify-content: center;
+    width: 80%;
+    padding-right:5.75rem;
   }
 `;
 
@@ -48,7 +50,10 @@ const CopyRights = styled.div`
 
   @media (max-width: 767px){
     margin: 0;
-    padding-bottom:1rem;
+    justify-content: center;
+    padding-bottom:0.5rem;
+    width: 100%;
+    padding-right:5.75rem;
   }
 `;
 

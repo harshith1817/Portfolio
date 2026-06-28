@@ -11,12 +11,6 @@ import { CgFileDocument } from "react-icons/cg";
 const Section = styled.section`
   width: 100%;
   height:95rem;
-  @media (max-width: 1310px){
-    height:133rem;
-  }
-  @media (max-width: 900px){
-    height:209rem;
-  }
   @media (max-width: 767px){
     height:184rem;
   }
